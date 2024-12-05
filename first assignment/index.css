@@ -1,0 +1,64 @@
+main {
+    display: grid;
+    grid-template-rows: 1fr 245.4px 1fr;
+    gap: 80px;
+    margin-block-start: 40px;
+}
+
+.lorem-1, .lorem-2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(68, 67, 67);
+    font-family: 'Times New Roman' serif;
+    line-height: 36px;
+}
+
+
+.middle-cont {
+    background-color: #e7e6e633;
+    max-width: 1000px;
+    height: 245.4;
+    position: relative;
+    margin-inline-start: 720px;
+}
+
+.left-border {
+    background-color: rgba(216, 212, 212, 0.815);
+    height: 245.4px;
+    width: 35px;
+  position: absolute;
+    left: 0;
+}
+
+
+.top-note, .bottom-note, .right-note {
+    background-color: white;
+    border: 2px solid rgb(31, 29, 29);
+    padding: 20px 10px;
+    position: absolute;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    line-height: 32px;
+   
+}
+
+.right-note {
+    width: 59px;
+    height: 153.02px;
+   right: -70px;
+    
+    
+   
+}
+
+.bottom-note {
+  bottom: -20px;
+  left: 0px;
+}
+
+.top-note {
+top: -70px;
+left: 0;
+
+}
