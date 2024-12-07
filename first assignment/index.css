@@ -11,6 +11,7 @@ main {
     color: rgb(68, 67, 67);
     font-family: 'Times New Roman' serif;
     line-height: 36px;
+    overflow-wrap: anywhere;
 }
 
 
@@ -20,6 +21,28 @@ main {
     height: 245.4;
     position: relative;
     margin-inline-start: 720px;
+    unicode-bidi: isolate;
+    display: block;
+    box-sizing: border-box;
+   unicode-bidi: isolate;
+}
+
+.text-content {
+    margin-inline-start: 150px;
+          margin-block-start: 20px;
+          line-height: 32px;
+          font-size: 20px;
+          font-weight: bold;
+          position: absolute;
+          overflow-wrap: anywhere;
+          unicode-bidi: isolate;
+          display: block;
+          box-sizing: border-box;
+}
+
+p {
+    margin-block-end: -10px;
+    position: absolute;
 }
 
 .left-border {

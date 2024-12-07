@@ -8,7 +8,7 @@ computePosition(container, rightNote, {
     placement: 'right', 
 }).then(({ x, y }) => {
     Object.assign(rightNote.style, {
-        left: `${985}px`,
+        right: `${0}px`,
         top: `${0}px`,
     });
 });
